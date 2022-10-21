@@ -1,0 +1,33 @@
+<div class="layout-container">
+
+  <header role="banner">
+   {% if page.footer_third %}
+      <div id="footer-third-three">
+          {{ page.footer_third }}
+      </div>
+    {% endif %}
+
+  </header>
+
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+    <div class="layout-content">
+      <div id="padre">
+        <div id="hijo">
+          {{ page.content }}
+      </div>
+      </div>
+     
+    </div>{# /.layout-content #}
+
+  </main>
+
+  {% if page.footer_fourth %}
+      <div id="footer-fourth-four">
+          {{ page.footer_fourth }}
+      </div>
+    {% endif %}
+
+</div>{# /.layout-container #}

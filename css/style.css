@@ -1,0 +1,600 @@
+body{
+	font-family: "Roboto", sans-serif; 
+	background-color: #fff;
+}
+
+/*Page--front.html.twig*/
+#header{
+	margin-top: 30px;
+	text-align: right;
+}
+
+	#header li{
+		display: inline;
+		padding: 0 10px 0 0;
+	}
+
+	#header a {
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		border: 0px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#header a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+	
+#footer-first{
+	text-align: center;
+	margin-top: 150pX;
+}
+
+#footer-second{
+	padding: 10px;
+	text-align: center;
+	margin-top: 10pX;
+}
+
+	#footer-second div{
+		display: inline-block;			
+	}
+
+	#footer-second input[type=search]{
+		border: 1px solid #ddd;
+		padding: 0 20px;
+		width: 600px;
+		height: 40px;
+		border-radius: 20px;
+	}
+
+	#footer-second input[type=search]:hover{}
+
+	#footer-second input[type=submit]{
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 0 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+		
+		#footer-second input[type=submit]:hover{
+			border: 1px solid #bbb;
+			color: black;
+ 		}
+
+#footer-third{
+	text-align: center;
+	margin-top: 20px;
+}
+
+	#footer-third li{
+		display: inline;
+		padding: 0 10px 0 0;
+	}
+
+	#footer-third a {
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		border: 0px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-third a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+
+#footer-fourth{
+	padding: 0 0 0 100px;
+	margin-top: 200px;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+}
+
+	#footer-fourth a{
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-fourth a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+
+/*Page--search--node.html.twig*/
+
+#search-content{padding: 10px 100px;}
+
+#search-content h3 {
+	background-color: transparent;
+	color: blue;
+	font-weight: normal;
+	}
+
+#search-content li{list-style-type:none;}
+
+#search-content p{
+	background-color: #fff;
+}
+
+#search-content a{
+		text-decoration: none;
+		color: blue;
+		transition: background-color 1.5s ease;
+	}
+
+		#search-content a:hover{
+			text-decoration: underline;	
+		}
+
+	#search-content input[type=search]{
+		border: 1px solid #ddd;
+		padding: 0 20px;
+		width: 600px;
+		height: 40px;
+		border-radius: 20px;
+	}
+
+	#search-content input[type=search]:hover{}
+
+	#search-content input[type=submit]{
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 0 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+		
+		#search-content input[type=submit]:hover{
+			border: 1px solid #bbb;
+			color: black;
+ 		}
+
+ 	#search-content label{
+		font-weight: bold;
+	}
+
+#footer-fourth-two{
+	margin-top: 20px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	color: #000;
+	text-align: left;
+}
+
+	#footer-fourth-two a{
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-fourth-two a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+
+
+/*Page--node.html.twig*/
+#header-container div{
+	display: inline-block;}
+
+#tiny-logo{
+	padding: 10px 0 0 20px;
+	text-align: left;}
+
+#node--content{
+	padding: 10px 40px;
+	text-align: justify;
+}
+	#node--content h1{
+		text-align: left;
+		font-size: 20px
+		padding: 10px;
+		color: #444;
+		background-color: #fff;
+		opacity: .9;
+	}
+
+	#node--content li{display: inline;}
+
+	#node--content a{
+			font-weight: normal;
+			border-radius: 10px;
+			text-decoration: none;
+			color: #fff;
+			font-weight: normal;
+			padding: 10px 10px;
+			opacity: .8;
+			background-color: #0000FF;
+			transition: background-color 1.5s ease;
+		}
+
+			#node--content a:hover{
+				border: 1px solid #bbb;
+				color: black;
+			}
+
+/*node--full.html.twig*/
+#node--full{
+	padding: 10px 20px;
+	border-radius: 0px;
+	background-color:#F9F9FF;
+	opacity: .9;
+	box-shadow: 5px 10px #e5e5e5;
+	border-left-style: solid;
+    border-left-color: #ddd;
+    border-left-width: 1px;
+}
+	#node--full li{display: inline;}
+
+	#node--full a{
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		width: 330px;
+		color: #444;
+		opacity: .8;
+		padding: 0 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+			#node--full a:hover{
+				border: 1px solid #bbb;
+				color: black;
+			}
+
+#footer-third-two{
+	text-align: center;
+	margin-top: 20px;
+}
+
+	#footer-third-two li{
+		display: inline;
+		padding: 0 10px 0 0;
+	}
+
+	#footer-third-two a {
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		border: 0px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-third-two a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+
+#footer-fourth-three{
+	padding: 0 0 0 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+}
+
+	#footer-fourth-three a{
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		border: 0px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-fourth-three a:hover{
+			border: 1px solid #bbb;
+			color: black;
+			}
+
+/*field--node--field-tags.html.twig*/
+#tags{
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 10px;
+}
+
+  #tags div{display: inline-block;}
+   
+  #tags a{
+  	font-weight: normal;
+    border: 1px solid #ddd;
+	border-radius: 20px;
+	padding: 10px 20px;
+	width: 330px;
+	color: #444;
+	opacity: .8;
+	height: 40px;
+	background-color: #F2F2F2;
+	border: 1px solid #ddd;
+	transition: background-color 1.5s ease;
+	}  
+
+    #tags a:hover {
+    	border: 1px solid #bbb;
+		color: black;
+	}
+
+
+/*field--comment.html.twig*/
+#field--comment{
+    padding: 20px 20px;
+    background-color: #F2F2F2;
+    border-left-style: solid;
+    border-left-color: #ddd;
+    border-left-width: 1px;
+}
+
+    #field--comment li{
+        padding: 5px 5px;
+        text-decoration: none;
+    }
+
+     #field--comment a{
+     	padding: 10px 20px;
+        border: 1px solid #ddd;
+		border-radius: 20px;
+		width: 330px;
+		color: #444;
+		opacity: .8;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+        }
+
+        #field--comment a:hover {
+         	 border: 1px solid #bbb;
+			 color: black;
+		}
+
+    #field--comment input[type=text]{
+		padding: 0 20px;
+		background-color:#F9F9FF;
+		border: 1px solid #ddd;
+		width: 600px;
+		height: 40px;
+		border-radius: 10px;
+		transition: width 2s;
+	}
+
+	#field--comment input[type=text]:hover{}
+
+	#field--comment input[type=submit]{
+		border: 1px solid #ddd;
+		background-color:#F9F9FF;
+		border-radius: 20px;
+		width: 330px;
+		color: #444;
+		opacity: .8;
+		padding: 0 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+		
+		#field--comment input[type=submit]:hover{
+			border: 1px solid #bbb;
+			color: black;
+ 		}
+
+ 	#field--comment textarea{
+ 		background-color:#F9F9FF;
+ 		padding: 0 20px;
+		border: 1px solid #ddd;
+		margin-bottom: 10px;
+		width: 600px;
+		height: 200px;
+		border-radius: 10px;
+ 	}
+
+ 	#field--comment label{
+ 		display:block;
+ 		width: 200px;
+ 	}
+
+/*field.html.twig*/
+#form div{margin-bottom: 10px;}
+
+/*filter-tips*/
+#filter-tips{
+	margin-top: 35px;
+	text-align: justify;
+} 		
+
+/*page--user--login.html.twig*/
+#footer-third-three{
+	text-align: center;
+	margin-top: 50px;
+}
+
+	#footer-third-three li{
+		display: inline;
+		padding: 0 10px 0 0;
+	}
+
+	#footer-third-three a {
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		border: 0px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-third-three a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+
+
+#padre{
+	padding: 4% 25% 4% 25%;
+}
+
+#hijo {
+	border: 1px solid #ddd;
+	background-color: #F2F2F2;
+	padding: 20px;
+}
+
+	 #hijo input[type=text]{
+		padding: 0 20px;
+		margin-bottom: 10px;
+		background-color:#F9F9FF;
+		border: 1px solid #ddd;
+		width: 500px;
+		height: 40px;
+		border-radius: 10px;
+		transition: width 2s;
+	}
+
+	#hijo input[type=text]:hover{}
+
+	 #hijo input[type=password]{
+		padding: 0 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color:#F9F9FF;
+		border: 1px solid #ddd;
+		width: 500px;
+		height: 40px;
+		border-radius: 10px;
+		transition: width 2s;
+	}
+
+	#hijo input[type=text]:hover{}
+
+	#hijo input[type=submit]{
+		border: 1px solid #bbb;
+		margin-top: 20px;
+		background-color:#F9F9FF;
+		border-radius: 20px;
+		width: 620px;
+		color: #444;
+		opacity: .8;
+		padding: 0 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		transition: background-color 1.5s ease;
+	}
+		
+		#hijo input[type=submit]:hover{
+			border: 1px solid #aaa;
+			color: black;
+ 		}
+#footer-fourth-four{
+	padding: 0 0 0 100px;
+	margin-top: 30px;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+}
+
+	#footer-fourth-four a{
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 20px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-fourth-four a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}
+
+/*page--user.html.twig*/
+#footer-third-page-user{
+	text-align: center;
+	margin-top: 50px;
+}
+
+	#footer-third-page-user li{
+		display: inline;
+		padding: 0 10px 0 0;
+	}
+
+	#footer-third-page-user a {
+		text-decoration: none;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		color: #444;
+		opacity: .8;
+		padding: 10px 20px;
+		height: 40px;
+		border: 0px;
+		background-color: #F2F2F2;
+		border: 1px solid #ddd;
+		transition: background-color 1.5s ease;
+	}
+
+		#footer-third-page-user a:hover{
+			border: 1px solid #bbb;
+			color: black;
+		}

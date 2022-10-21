@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Theming Steps</title>
+	 <!-- Agregamos iconos sociales desde fontawasome via ->Link ->URL -->
+  <script src="https://kit.fontawesome.com/035d00932a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div id="title">
+		<h1>Drupal 8 </h1>
+	</div>
+
+	<div id="subtitle">
+		<div id="subtitle-flex">
+				<h1>Theming steps</h1>
+		</div>
+	</div>
+	</header>
+	
+	<div id="content">
+		<div id="steps-list">
+			<ul>
+				<li>
+					1.-<a href="https://shorturl.at/bkzRV"><i class="fa fa-bullet"></i> Install Drupal 8 (Opcional Enviroment).</a>
+				</li>
+
+				<li>
+					2.-<a href="http://shorturl.at/coKU9"><i class="fa fa-bullet"></i> Theme setup.</a>
+						<ul>
+							<li>
+								2.1-<i class="fa fa-bullet"></i> "mytheme".info.yml
+							</li>
+							<li>
+								2.2-<i class="fa fa-bullet"></i> "mytheme".libraries.yml
+							</li>
+						</ul>
+				</li>
+
+				<li>
+					3.-<a href="https://shorturl.at/ensJ7"><i class="fa fa-bullet"></i> Disable Cache and enable Twig Debug.</a>
+						<ul>
+							<li>
+								3.1-<i class="fa fa-bullet"></i> Disable the cache; using the files inside the route sites/default
+							</li>
+							<li>
+								3.2-<i class="fa fa-bullet"></i> Enable Twig debug addind the parameters: debug: true, auto-reload: true, cache: false, to the development.services.yml file.
+							</li>
+						</ul>
+				</li>
+
+			</ul>
+			
+		</div>
+		
+	</div>
+
+
+
+</body>
+</html>
